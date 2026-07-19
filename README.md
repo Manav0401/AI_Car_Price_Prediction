@@ -223,7 +223,4 @@ Integrated M.Tech in Artificial Intelligence
 VIT Bhopal University
 
 ---
-
-## 📜 License
-
 This project is intended for educational and portfolio purposes.
