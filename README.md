@@ -1,81 +1,139 @@
+<div align="center">
+
 # 🚗 AI Car Price Predictor
 
-An AI-powered web application that predicts the resale value of used cars using Machine Learning. Built with **Flask**, **Scikit-learn**, and **Python**, this application provides an intuitive interface for estimating vehicle prices based on various car attributes.
+### AI-powered Used Car Resale Price Prediction using Machine Learning
+
+Predict the resale value of used cars instantly using a trained Machine Learning model built with **Python, Flask, and Scikit-learn**.
+
+[🌐 Live Demo](https://car-price-predictor-jfi2.onrender.com) • [📂 Source Code](https://github.com/Manav0401/AI_Car_Price_Prediction)
+
+> **Note:** Hosted on Render's free tier. The first request may take **30–60 seconds** if the application is waking up.
+
+</div>
 
 ---
 
-## 🌐 Live Demo
+# 📸 Application Preview
 
-🔗 **Website:** https://car-price-predictor-jfi2.onrender.com
+## 🏠 Homepage
 
-> **Note:** This application is hosted on Render's free tier. If the site has been inactive, the first request may take 30–60 seconds while the server wakes up.
-
----
-
-## 📖 Overview
-
-The AI Car Price Predictor is designed to estimate the market value of a used vehicle based on its specifications. The application uses a trained Machine Learning model to analyze user-provided vehicle information and generate an estimated resale price.
-
-The project demonstrates the complete workflow of a Machine Learning application, including:
-
-- Data preprocessing
-- Model training
-- Model serialization
-- Flask backend
-- Interactive frontend
-- Real-time predictions
+<p align="center">
+  <img src="assets/homepage.png" width="900">
+</p>
 
 ---
 
-## ✨ Features
+## 💰 Prediction Result
 
-- 🚗 Brand and model selection
-- 🔍 Searchable dropdown menus
-- ⚡ Automatic vehicle specification loading
-- 🤖 Machine Learning price prediction
-- 📱 Responsive user interface
-- 🎨 Modern animated frontend
-- 💾 Pre-trained ML model
-- 📊 Instant resale price estimation
+<p align="center">
+  <img src="assets/result.png" width="900">
+</p>
 
 ---
 
-## 🛠 Technologies Used
+## 📱 Mobile View
 
-### Backend
-
-- Python
-- Flask
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-
-### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Tom Select
-
-### Machine Learning
-
-- Regression Model
-- Data Preprocessing
-- Feature Engineering
-- Model Serialization using Joblib
+<p align="center">
+  <img src="assets/mobile.jpeg" width="300">
+</p>
 
 ---
 
-## 📂 Project Structure
+# 📖 Overview
+
+AI Car Price Predictor is a full-stack Machine Learning web application that estimates the resale value of used vehicles based on various specifications.
+
+The application combines data preprocessing, feature engineering, model training, and a Flask-based web interface to deliver accurate predictions in real time.
+
+---
+
+# ✨ Features
+
+- 🚗 Dynamic Brand & Model Selection
+- 🔍 Searchable Dropdowns (Tom Select)
+- ⚡ Automatic Vehicle Specification Loading
+- 🤖 Machine Learning-Based Price Prediction
+- 📱 Responsive User Interface
+- 🎨 Modern Animated Frontend
+- 💾 Pre-trained ML Model
+- 📊 Instant Price Estimation
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Backend** | Python, Flask |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Machine Learning** | Scikit-learn, Joblib |
+| **Data Processing** | Pandas, NumPy |
+| **Deployment** | Render |
+
+---
+
+# 🧠 Machine Learning Pipeline
 
 ```
-CAR_PRICE_PREDICTION/
+Raw Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Model Training
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
+Model Serialization
+      │
+      ▼
+Flask Web Application
+      │
+      ▼
+Price Prediction
+```
+
+---
+
+# 📊 Prediction Features
+
+The model uses the following vehicle attributes:
+
+- Brand
+- Model
+- Vehicle Age
+- Kilometers Driven
+- Seller Type
+- Fuel Type
+- Transmission Type
+- Mileage
+- Engine Capacity
+- Maximum Power
+- Number of Seats
+
+---
+
+# 📂 Project Structure
+
+```text
+AI_Car_Price_Prediction/
 │
 ├── app.py
 ├── requirements.txt
-├── README.md
 ├── render.yaml
+├── README.md
+│
+├── assets/
+│   ├── homepage.png
+│   ├── result.png
+│   └── mobile.jpeg
 │
 ├── data/
 │   └── cleaned_dataset.csv
@@ -93,36 +151,18 @@ CAR_PRICE_PREDICTION/
 
 ---
 
-## 📊 Dataset Features
-
-The model predicts car prices using the following features:
-
-- Brand
-- Model
-- Vehicle Age
-- Kilometers Driven
-- Seller Type
-- Fuel Type
-- Transmission Type
-- Mileage
-- Engine Capacity
-- Maximum Power
-- Number of Seats
-
----
-
-## ⚙ Installation
+# ⚙ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/Manav0401/AI-Car-Price-Predictor.git
+git clone https://github.com/Manav0401/AI_Car_Price_Prediction.git
 ```
 
-Move into the project directory
+Move into the project
 
 ```bash
-cd AI-Car-Price-Predictor
+cd AI_Car_Price_Prediction
 ```
 
 Install dependencies
@@ -131,7 +171,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the Flask application
+Run the application
 
 ```bash
 python app.py
@@ -145,95 +185,44 @@ http://127.0.0.1:5000
 
 ---
 
-## 🚀 How It Works
+# 🚀 Live Demo
 
-1. Select the vehicle brand.
-2. Choose the vehicle model.
-3. Enter the manufacturing year.
-4. Enter kilometers driven.
-5. Select fuel type.
-6. Select transmission type.
-7. Select seller type.
-8. Click **Predict Price**.
-9. The trained Machine Learning model estimates the resale value.
+🌐 **https://car-price-predictor-jfi2.onrender.com**
 
 ---
 
-## 🧠 Machine Learning Workflow
+# 🔮 Future Improvements
 
-```
-Dataset
-     │
-     ▼
-Data Cleaning
-     │
-     ▼
-Feature Engineering
-     │
-     ▼
-Model Training
-     │
-     ▼
-Model Evaluation
-     │
-     ▼
-Model Serialization (.pkl)
-     │
-     ▼
-Flask Application
-```
+- User Authentication
+- Prediction History
+- Vehicle Image Upload
+- Price Trend Analysis
+- AI Recommendations
+- REST API
+- Dark Mode
+- Market Comparison Dashboard
 
 ---
 
-## 📸 Screenshots
-
-### Homepage
-
-![Homepage](assets/homepage.png)
-
----
-
-### Prediction Result
-
-![Prediction](assets/result.png)
-
----
-
-### Mobile View
-
-![Mobile](assets/mobile.jpeg)
----
-
-## 🌐 Deployment
-
-The application can be deployed using:
-
-- Render
-- Railway
-- PythonAnywhere
-
----
-
-## 🔮 Future Improvements
-
-- User authentication
-- Prediction history
-- Price trend visualization
-- Vehicle image recognition
-- AI-powered recommendations
-- Dark mode
-- Comparison with market prices
-- REST API support
-
----
-
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Manav M George**
 
-Integrated M.Tech in Artificial Intelligence
-
+Integrated M.Tech in Artificial Intelligence  
 VIT Bhopal University
 
+GitHub: **https://github.com/Manav0401**
+
 ---
-This project is intended for educational and portfolio purposes.
+
+# 📌 Project Note
+
+This project is intended for educational, research, and portfolio purposes.
+
+---
+
+<div align="center">
+
+⭐ If you found this project helpful, consider giving it a star!
+
+</div>
