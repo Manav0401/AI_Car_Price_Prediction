@@ -4,6 +4,14 @@ An AI-powered web application that predicts the resale value of used cars using 
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **Website:** https://car-price-predictor-jfi2.onrender.com
+
+> **Note:** This application is hosted on Render's free tier. If the site has been inactive, the first request may take 30–60 seconds while the server wakes up.
+
+---
+
 ## 📖 Overview
 
 The AI Car Price Predictor is designed to estimate the market value of a used vehicle based on its specifications. The application uses a trained Machine Learning model to analyze user-provided vehicle information and generate an estimated resale price.
