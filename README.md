@@ -179,16 +179,21 @@ Flask Application
 
 ## 📸 Screenshots
 
-Add screenshots of the application here after deployment.
+### Homepage
 
-Example:
+![Homepage](assets/homepage.png)
 
-```
-screenshots/homepage.png
+---
 
-screenshots/result.png
-```
+### Prediction Result
 
+![Prediction](assets/result.png)
+
+---
+
+### Mobile View
+
+![Mobile](assets/mobile.jpeg)
 ---
 
 ## 🌐 Deployment
